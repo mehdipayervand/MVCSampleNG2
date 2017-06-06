@@ -77,11 +77,6 @@
     <Content Include="src\assets\.gitkeep" />
     <Content Include="src\tsconfig.app.json" />
     <Content Include="src\tsconfig.spec.json" />
-    <Content Include="dist\inline.bundle.js.map" />
-    <Content Include="dist\main.bundle.js.map" />
-    <Content Include="dist\polyfills.bundle.js.map" />
-    <Content Include="dist\styles.bundle.js.map" />
-    <Content Include="dist\vendor.bundle.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -90,13 +85,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="dist\favicon.ico" />
-    <Content Include="dist\index.html" />
-    <Content Include="dist\inline.bundle.js" />
-    <Content Include="dist\main.bundle.js" />
-    <Content Include="dist\polyfills.bundle.js" />
-    <Content Include="dist\styles.bundle.js" />
-    <Content Include="dist\vendor.bundle.js" />
     <Content Include="karma.conf.js" />
     <Content Include="protractor.conf.js" />
     <Content Include="src\app\app.component.css" />
@@ -125,6 +113,7 @@
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
